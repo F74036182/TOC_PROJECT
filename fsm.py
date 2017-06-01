@@ -61,4 +61,4 @@ class TocMachine(GraphMachine):
         update.message.reply_text(text)
         self.go_back(update)
     def on_exit_state5(self, update):
-        print('Leaving state6') 
+        print('Leaving state5') 
