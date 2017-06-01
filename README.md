@@ -19,15 +19,15 @@ python3 app.py
 
 * user
     * Input: "/start"
-        * Reply: "I can help you create and manage Telegram 		bots. If you're new to the Bot API, please 			see the manual.
-				You can control me by sending these commands:
-				/newbot - create a new bot
-				/mybots - show your bots"  
+        * Reply: "I can help you create and manage Telegram bots. If you're new to the Bot API, please see the manual.
+You can control me by sending these commands:
+/newbot - create a new bot
+/mybots - show your bots"  
     * Input: "/newbot"
-        * Reply: "Alright, a new bot. How are we going to 			call it? Please choose a name for your bot."
+        * Reply: "Alright, a new bot. How are we going to call it? Please choose a name for your bot."
             * Input: "<想取的名字>"
-                * Reply: "Good. Now let's choose a username 		for your bot. It must end in "bot". 		Like this, for example: TetrisBot or 		tetris_bot."
+                * Reply: "Good. Now let's choose a username for your bot. It must end in "bot". Like this, for example: TetrisBot or tetris_bot."
                     * Input: "<想取的名字>"
-                        * Reply: "Done! Congratulations on 			your new bot."
+                        * Reply: "Done! Congratulations on your new bot."
     * Input: "/mybots"
         * Reply: "Your bots: ...(所有輸入的名字)"
