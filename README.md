@@ -15,19 +15,19 @@ python3 app.py
 ## Finite State Machine
 ![fsm](./img/show-fsm.png)
 ## Usage
-初始狀態 `user` ，總共5有個 state 。
+初始狀態 `user` ，總共6有個 state 。
 
 * user
-    * Input: "/start"
+    * Input: "/start" (state4)
         * Reply: "I can help you create and manage Telegram bots. If you're new to the Bot API, please see the manual.
 You can control me by sending these commands:
 /newbot - create a new bot
 /mybots - show your bots"  
-    * Input: "/newbot"
+    * Input: "/newbot" (state1)
         * Reply: "Alright, a new bot. How are we going to call it? Please choose a name for your bot."
-            * Input: "<想取的名字>"
+            * Input: "<想取的名字>" (state2)
                 * Reply: "Good. Now let's choose a username for your bot. It must end in "bot". Like this, for example: TetrisBot or tetris_bot."
-                    * Input: "<想取的名字>"
+                    * Input: "<想取的名字>" (state3)
                         * Reply: "Done! Congratulations on your new bot."
-    * Input: "/mybots"
+    * Input: "/mybots" (state5)
         * Reply: "Your bots: ...(所有輸入的名字)"
