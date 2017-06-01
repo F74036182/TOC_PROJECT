@@ -19,6 +19,7 @@ python3 app.py
 
 * user
     * Input: "/start"
+    
         * Reply: "I can help you create and manage Telegram bots. If you're new to the Bot API, please see the manual.
 		You can control me by sending these commands:
 		/newbot - create a new bot
